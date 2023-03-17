@@ -37,6 +37,7 @@ cmdline="proot \
         -b kali-arm64$home:/dev/shm \
         -b kali-arm64/proc/stat:/proc/stat \
         -b kali-arm64/proc/uptime:/proc/uptime \
+        -b /sdcard \
         -w $home \
            /usr/bin/env -i \
            HOME=$home \
